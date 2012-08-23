@@ -15,7 +15,7 @@ public class MongoDatabase {
     public static DB connectToDB() {
         try {
             Mongo mongo = new com.mongodb.Mongo("localhost", 27017);
-            return mongo.getDB("MONGO-SPIKE");
+            return mongo.getDB("JMDB-MONGO-SPIKE");
         } catch (UnknownHostException e) {
             throw new RuntimeException(e);
         } catch (MongoException e) {
@@ -28,6 +28,10 @@ public class MongoDatabase {
         if (mongo != null) {
             mongo.close();
         }
+    }
+
+    private MongoDatabase() {
+
     }
 
 }
