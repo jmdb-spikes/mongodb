@@ -20,6 +20,7 @@ public class Application {
 
     private static final Map<String, Command> COMMAND_MAP = new HashMap<String, Command>() {{
         put("insert", new InsertAHugeNumberOfDocuments());
+        put("help", new HelpCommand());
     }};
 
     private Application() {
