@@ -871,6 +871,19 @@
     <option name="showOnlyWarnings" value="false" />
   </component>
   <component name="libraryTable">
+    <library name="dev">
+      <CLASSES>
+        <root url="file://$PROJECT_DIR$/../../lib/dev" />
+        <root url="file://$PROJECT_DIR$/../../lib/dev" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$PROJECT_DIR$/../../lib/dev" />
+        <root url="file://$PROJECT_DIR$/../../lib/dev" />
+      </SOURCES>
+      <jarDirectory url="file://$PROJECT_DIR$/../../lib/dev" recursive="false" />
+      <jarDirectory url="file://$PROJECT_DIR$/../../lib/dev" recursive="false" type="SOURCES" />
+    </library>
     <library name="project-libs">
       <CLASSES>
         <root url="file://$PROJECT_DIR$/../../lib" />
