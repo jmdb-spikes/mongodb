@@ -6,3 +6,4 @@ target
 bin
 out
 lib
+.lein-deps-sum
