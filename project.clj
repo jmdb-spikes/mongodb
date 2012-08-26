@@ -9,12 +9,16 @@
                  [org.slf4j/slf4j-api "1.6.0"]
                  [org.mongodb/mongo-java-driver "2.8.0"]]
 
-  :dev-dependencies [[expectations "1.4.3"]]
+  :dev-dependencies [[expectations "1.4.3"]
+                     [midje "1.4.0"]]
 
   ;:library-path "target/lib"
   :java-source-path "src/main/java"
   :java-options ["-target" "1.6" "-source" "1.6" "-Xlint:-options"]
   :resources-path "src/main/resource"
+
+  :test-path "src/test/clojure"
+
   :compile-path "target/classes"
   :target-path "target"
   :jar-name "target/mongodb-spike.jar"

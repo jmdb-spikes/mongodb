@@ -1,4 +1,4 @@
-(ns jmdb.spikes.mongodb
+(ns jmdb.spikes.mongodb.expectations
   (:use expectations))
 
-(expect nil? 'foo)
+(expect nil? nil)
